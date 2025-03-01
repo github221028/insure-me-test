@@ -15,7 +15,6 @@ public class App {
     	
     	ChromeOptions options = new ChromeOptions();
     	options.addArguments("--headless");
- 
         
         WebDriver driver = new ChromeDriver(options);
 
@@ -49,7 +48,6 @@ public class App {
         	System.out.println("Test Case Failed");
         }
         	
-
         driver.quit();
     }
 }
