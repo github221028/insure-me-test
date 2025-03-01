@@ -18,7 +18,7 @@ public class App {
         
         WebDriver driver = new ChromeDriver(options);
 
-        driver.get("http://3.96.199.65:8082/contact.html");
+        driver.get("http://3.99.154.187:8081/contact.html");
 
         System.out.println(driver.getTitle());
 
@@ -47,7 +47,7 @@ public class App {
         } else {
         	System.out.println("Test Case Failed");
         }
-        	
+        	 
         driver.quit();
     }
 }
